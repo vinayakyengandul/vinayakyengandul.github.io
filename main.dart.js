@@ -48817,49 +48817,43 @@ l(){var s=this.d
 s===$&&A.a()
 s.l()
 this.a9E()},
-vV(){var s=0,r=A.H(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c
+vV(){var s=0,r=A.H(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d
 var $async$vV=A.I(function(a,b){if(a===1){o.push(b)
-s=p}for(;;)switch(s){case 0:if(m.e||m.f!=null||m.a.c.length<2){s=1
-break}m.a7(new A.asv(m))
+s=p}for(;;)switch(s){case 0:if(n.e||n.f!=null||n.a.c.length<2){s=1
+break}n.a7(new A.asv(n))
 p=4
 s=7
-return A.o(m.a.aAQ(),$async$vV)
-case 7:l=b
-if(m.c==null){n=[1]
-s=5
-break}if(l==null){m.a7(new A.asw(m))
-n=[1]
-s=5
-break}k=B.b.ayn(m.a.c,new A.asx(l))
-if(J.d(k,-1)){m.a7(new A.asy(m))
-n=[1]
-s=5
-break}m.a7(new A.asz(m,l))
-j=6.283185307179586/m.a.c.length
-i=-1.5707963267948966+(k+0.5)*j
-h=B.c.bl(-1.5707963267948966-i,6.283185307179586)
-g=6+h/6.283185307179586
-e=m.d
-e===$&&A.a()
-e.sp(0,0)
-e.z=B.aK
+return A.o(n.a.aAQ(),$async$vV)
+case 7:m=b
+if(n.c==null){s=1
+break}if(m==null){n.a7(new A.asw(n))
+s=1
+break}l=B.b.ayn(n.a.c,new A.asx(m))
+if(J.d(l,-1)){n.a7(new A.asy(n))
+s=1
+break}k=6.283185307179586/n.a.c.length
+j=-1.5707963267948966+(l+0.5)*k
+i=B.c.bl(-1.5707963267948966-j,6.283185307179586)
+h=6+i/6.283185307179586
+f=n.d
+f===$&&A.a()
+f.sp(0,0)
+f.z=B.aK
 s=8
-return A.o(e.i2(g,B.pK,null),$async$vV)
-case 8:n.push(6)
-s=5
+return A.o(f.i2(h,B.pK,null),$async$vV)
+case 8:if(n.c==null){s=1
+break}n.a7(new A.asz(n,m))
+p=2
+s=6
 break
 case 4:p=3
-c=o.pop()
-f=A.a7(c)
-e=m.c
-if(e!=null)e.a8(t.J).f.fB(A.js(null,null,null,B.B,null,B.F,null,A.P("Unable to spin the wheel: "+A.l(f),null,null,null,null,null,null),null,B.bh,null,null,null,null,null,null,null,null,null,null))
-n.push(6)
-s=5
+d=o.pop()
+g=A.a7(d)
+f=n.c
+if(f!=null){f.a8(t.J).f.fB(A.js(null,null,null,B.B,null,B.F,null,A.P("Unable to spin the wheel: "+A.l(g),null,null,null,null,null,null),null,B.bh,null,null,null,null,null,null,null,null,null,null))
+n.a7(new A.asA(n))}s=6
 break
-case 3:n=[2]
-case 5:p=2
-if(m.c!=null)m.a7(new A.asA(m))
-s=n.pop()
+case 3:s=2
 break
 case 6:case 1:return A.F(q,r)
 case 2:return A.E(o.at(-1),r)}})
@@ -48872,7 +48866,7 @@ F(a){var s,r,q=this,p=null,o=q.garE(),n=A.aH(18),m=A.bM(A.af(153,B.Q.t()>>>16&25
 j===$&&A.a()
 s=t.p
 j=A.b([B.a3q,B.bb,B.a3j,B.bk,k,B.by,A.cP(A.jt(B.oq,A.b([A.pe(p,A.aIU(A.h1(p,p,p,new A.VP(l,p),B.Xo),j),p,p,p,p,18,p),B.UN],s),B.F,B.ci,p),300,280),B.by],s)
-if(o!=null){l=A.af(31,B.a2.t()>>>16&255,B.a2.t()>>>8&255,B.a2.t()&255)
+if(o!=null&&!q.e){l=A.af(31,B.a2.t()>>>16&255,B.a2.t()>>>8&255,B.a2.t()&255)
 k=A.aH(14)
 r=A.bM(B.a2,1)
 k=A.aQ(p,A.aA(A.b([B.Mx,B.bb,B.a2W,B.aV,A.P(o.b,p,p,p,B.a1f,B.bn,p),A.P("Winning bid: "+B.c.R(q.a.r,0)+" points",p,p,p,B.de,p,p)],s),B.o,B.h,B.i),B.n,p,p,new A.aL(l,p,r,k,p,p,B.t),p,p,p,B.dT,p,p,1/0)
@@ -48894,7 +48888,9 @@ A.asy.prototype={
 $0(){this.a.e=!1},
 $S:0}
 A.asz.prototype={
-$0(){this.a.f=this.b},
+$0(){var s=this.a
+s.f=this.b
+s.e=!1},
 $S:0}
 A.asA.prototype={
 $0(){this.a.e=!1},
